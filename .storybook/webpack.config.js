@@ -12,6 +12,7 @@ module.exports = {
   },
   resolve: {
     alias: {
+      "components": path.resolve("./src/components"),
       "themes": path.resolve("./src/themes"),
       "tokens": path.resolve("./src/tokens/tokens"),
       "storybook:components": path.resolve("./.storybook/components"),

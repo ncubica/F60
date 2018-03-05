@@ -3,12 +3,17 @@ export const nudge = 8;
 export const colors = {
   white: '#FCFCFC',
   black: '#3D3D3D',
-  primary: "#f60",
-  secondary: "#654321",
+  green: '#53A252',
+  yellow: '#F99508',
+  red: '#BD3531',
+  blue: '#2EA2C1',
+  primary: this.black,
+  secondary: this.darkGrey,
   grey: "#E5E8EB",
   darkGrey: "#9E9E9E",
   background: this.white,
   border: this.grey,
+  insignia: "#f60",
 };
 
 export const spacing = {
