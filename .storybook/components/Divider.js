@@ -4,6 +4,6 @@ import { nudge, colors, spacing } from 'tokens';
 
 export default (props) => {
   return (
-    <Div width="100%" padding={spacing.wide} borderBottom={`1px solid ${colors.grey}`} />
+    <Div width="100%" marginTop={spacing.wide} marginBottom={spacing.wide} borderBottom={`1px solid ${colors.grey}`} />
   );
 }

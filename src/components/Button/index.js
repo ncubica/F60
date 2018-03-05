@@ -13,7 +13,6 @@ export default class Button extends Component {
     size: string,
     status: string,
     type: string,
-    _theme: object,
   }
   // oneOf(['primary', 'secondary', 'inverse', 'minor', 'link', 'destructive', 'success', 'warning'])
 
